@@ -63,7 +63,8 @@ li {
 #sidebar {
     height: auto;
     display: grid;
-    grid-column: 1fr 1fr 2fr;
+    grid-column: 1fr 2fr 4fr;
+    grid-row: repeat(20 5%);
     /* border: 1px solid blue; */
     background-color: dimgray;
     
@@ -78,7 +79,9 @@ li {
 
 #sidebar-header {
     /* border: solid 1px orange; */
-    grid-area: 2 / 2 / 2 / span 3;
+    grid-area: 1 / 1 / 2 / span 4;
+    text-align: center;
+    align-self: center;
 }
 
 .sidebar-header {
@@ -88,16 +91,17 @@ li {
 }
 
 .sidebar-footer {
-    grid-area: 5 / 1 / 6 / 4;
+    grid-area: 5 / 1 / 6 / 5;
     margin-bottom: 5px;
     text-align: center;
     color: lightgray;
+    align-self: end;
 }
 
 #list {
     /* border: 1px solid orange; */
-    margin-bottom: auto;
-    grid-area: 3 / 1 / 5 / 4;
+    /* margin-bottom: auto; */
+    grid-area: 2 / 1 / 2 / span 4;
 }
 
 #content {
@@ -161,4 +165,5 @@ li {
     margin-left: 100px;
     font-size: 1.3em;
     color: white;
+    align-self: center;
 }
