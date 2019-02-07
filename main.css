@@ -28,10 +28,6 @@ li {
 }
 
 .nav-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 1px double blue;
     background-color: whitesmoke;
     padding-top: 5%;
@@ -85,24 +81,18 @@ li {
 }
 
 #sidebar-header {
-    /* align-self: center; */
     border: solid 1px orange;
     grid-area: 2 / 2 / 2 / span 3;
-    /* align-content: center; */
 }
 
 .sidebar-header {
     color: lightgray;
-    /* width: 10em; */
-    /* margin: 1.8em auto; */
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* align-self: center; */
 }
 
 .sidebar-footer {
     grid-area: 5 / 1 / 6 / 4;
-    margin: 0 auto;
     margin-bottom: 5px;
     text-align: center;
     color: lightgray;
