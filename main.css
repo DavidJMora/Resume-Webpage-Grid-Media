@@ -130,8 +130,8 @@ li {
     /* border: 1px solid darkorange; */
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 3% 94% 3%;
-    grid-template-rows: 3% 94% 3%;
+    grid-template-columns: 3% 85% 11%;
+    grid-template-rows: 3% 85% 11%;
 }
 
 #text-content {
@@ -173,4 +173,16 @@ li {
     font-size: 1.3em;
     color: white;
     align-self: center;
+}
+
+@media screen and (max-width: 450px) and (orientation: portrait) {
+    #container {
+        orientation: portrait;
+    }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    #container {
+        orientation: landscape;
+    }
 }
