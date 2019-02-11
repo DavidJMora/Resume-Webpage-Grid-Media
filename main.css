@@ -142,7 +142,6 @@ li {
 
 #traits {
     margin-top: 20px;
-    grid-row: 1 / 2;
 }
 
 #about-me {
@@ -151,7 +150,6 @@ li {
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    grid-row: 2 / 3;
 }
 
 .list {
@@ -165,7 +163,6 @@ li {
 #content-footer {
    width: 100%;
    height: auto;
-   grid-row: 3 / 4;
 }
 
 #signature {
