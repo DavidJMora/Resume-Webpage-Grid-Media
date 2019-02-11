@@ -121,6 +121,9 @@ li {
     /* border: 1px solid yellow; */
     background-color: whitesmoke;
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 #profile-pic-grid {
